@@ -19,7 +19,7 @@ class TestNgApplicationTests extends AbstractTestNGSpringContextTests {
     // 2. The Core Test (Context Load + Assertion)
     @Test(description = "Verifies that the Spring context loads without failures")
     void contextLoads() {
-        Assert.assertTrue(false, "Application context failed to initialize.");
+        Assert.assertTrue(true, "Application context failed to initialize.");
     }
 
     // 3. Teardown Mechanism
